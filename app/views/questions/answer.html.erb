@@ -1,0 +1,25 @@
+<!-- app/views/questions/answer.html.erb -->
+
+<div class="row">
+  <div class="col col-lg-6 mb-4 mb-lg-0 question-answer" style="border-left: .25rem solid #A34E78;">
+    <figure>
+      <blockquote class="blockquote pb-2">
+        <p><%= @question %></p>
+      </blockquote>
+      <figcaption class="blockquote-footer mb-0 font-italic">You</figcaption>
+    </figure>
+  </div>
+  <div class="col col-lg-6 question-answer">
+    <figure style="border-left: .25rem solid #F68E9D;">
+      <blockquote class="blockquote pb-2">
+        <p><%= @answer %></p>
+      </blockquote>
+      <figcaption class="blockquote-footer mb-0 font-italic">Your coach</figcaption>
+    </figure>
+  </div>
+</div>
+
+<p class="stupid-coaching-title">Stupid Coaching</p>
+
+<%= link_to "Ask a new question", ask_path, class: "ask-new-question-link" %>
+

@@ -1,0 +1,46 @@
+/* app/assets/stylesheets/custom_styles.css */
+
+/* Styles pour les éléments de question et de réponse */
+.question-answer {
+  margin-bottom: 20px;
+}
+
+.question-answer figure {
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.question-answer figure blockquote {
+  padding-bottom: 10px;
+}
+
+.question-answer figure figcaption {
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+/* Style pour le titre "Stupid Coaching" */
+.stupid-coaching-title {
+  font-size: 2em;
+  color: #A34E78;
+  margin-bottom: 30px;
+}
+
+/* Style pour le lien "Ask a new question" */
+.ask-new-question-link {
+  display: block;
+  width: fit-content;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #A34E78;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.ask-new-question-link:hover {
+  background-color: #F68E9D;
+}
